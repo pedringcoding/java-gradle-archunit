@@ -1,4 +1,4 @@
-# Keep your code with Gradle [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+#  Keep your architecture clean with Gradle [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 ## :clipboard: Introduction
 
