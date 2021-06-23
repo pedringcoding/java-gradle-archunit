@@ -1,0 +1,15 @@
+plugins {
+	id 'java-library'
+	// Automatic lombok and delombok configuration
+	id 'io.freefair.lombok' version "$lombokVersion"
+}
+
+group = "$PROJECT_GROUPNAME"
+version = "$PROJECT_VERSION"
+description = 'Pet project using Java with gradle'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+// repositories allowed to management dependencies
+apply from: "$rootDir/config/gradle/repositories.gradle"
